@@ -8,7 +8,7 @@
  ```Brach
 
    # 下载源码
-   git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
+   git clone --depth=1 https://github.com/laipeng668/luci-app-gecoosac package/luci-app-gecoosac
    make menuconfig
 
  ```
@@ -30,3 +30,12 @@
    make package/luci-app-gecoosac/compile V=s
 
  ```
+
+### 致谢:
+
+ ```Brach
+
+   感谢lwb1978大佬的付出！
+
+ ```
+
